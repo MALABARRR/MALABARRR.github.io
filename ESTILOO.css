@@ -16,30 +16,28 @@ header {
     
 }
 .contacto {
-    margin-right: 50%; 
+    margin: 40px;
+    float: left;
     position: relative;
     color: black;
+    cursor: pointer;
 }
 .catalogo {
-    margin: 50px;
+    margin: 40px;
     float: right;
     position: relative;
     color: black;
+    cursor: pointer;
 }
 .cuadrado {
+    margin-left: 100px;
+    margin-right: 100px;
     position: relative;
     margin-top: 50px;
     width: 1150px;
-    height: 200px;
+    height: 150px;
     background-color: white;
     border-radius: 30px;
-}
-.text{
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 350px 0;
-    font-size: 22px;
 }
 @keyframes bganimation {
     0%{
@@ -52,4 +50,39 @@ header {
     background-position: 0% 50%;
     }
 }
-
+.ramen {
+    margin-left: 2%;
+    width: 600px;
+}
+.pato {
+    margin-right: 2%;
+    width: 600px;
+}
+.pie {
+    font-size: 20pt;
+}
+.imagenes {
+    margin-bottom: 50px;
+}
+.bienvenido {
+    margin-bottom: 0px;
+    font-size: 75pt;
+    margin-top: 50px;
+}
+.texto1 {
+    font-size: 40pt;
+    margin: 50px;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+.contacto1 {
+    background-color: black;
+    width: 100%px;
+    height: 300px;
+}
+.icono {
+    margin-left: 100px;
+    float: left;
+    margin-top: 80px;
+    width: 50px;
+}
