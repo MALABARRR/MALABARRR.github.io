@@ -81,6 +81,7 @@ header {
     height: 300px;
 }
 .icono {
+    cursor: pointer;
     margin-left: 100px;
     float: left;
     margin-top: 80px;
