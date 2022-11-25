@@ -1,5 +1,3 @@
-/* body y fondo */
-
 body{
     margin: 0;
     padding: 0;
@@ -45,6 +43,7 @@ header {
     cursor: pointer;
 }
 .catalogo {
+    text-decoration: none;
     margin: 40px;
     float: right;
     position: relative;
@@ -62,15 +61,112 @@ header {
     border-radius: 30px;
 }
 
+/* carrusel */ 
+.carrousel {
+    position:relative;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.conteCarrousel {
+    border-radius: 50px;
+    box-shadow: 0 0 70px 0 rgba(10, 700, 255, 10);
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.itemCarrousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta {
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1 {
+    background-color: rgb(50, 100, 60);
+}
+
+#itemCarrousel-2 {
+    background-color: rgb(50, 40, 190);
+}
+
+#itemCarrousel-3 {
+    background-color: rgb(135, 10, 0);
+}
+#itemCarrousel-4 {
+    background-color: rgb(250, 200, 95);
+}
+
+.item-imagenes {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 5, 10);
+    border-radius: 15px;
+    margin-left: 325px;
+    margin-bottom: 30px;
+    width: 450px;
+}
+.conteCarrouselController {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+.conteCarrouselController .cuervo {
+    margin-top: 22px;
+    text-decoration: none;
+    width: 1.5em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i {
+    color: white;
+}
+
 /* imagenes */ 
 
-.ramen {
-    margin-left: 2%;
-    width: 600px;
+.izquierdos {
+    margin-top: 700px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 5, 10);
+   padding: 10px;
+    width: 400px;
 }
-.pato {
-    margin-right: 2%;
-    width: 600px;
+.derechos {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 5, 10);
+    padding: 10px;
+    width: 400px;
+}
+.extras {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 5, 10);
+    padding: 10px;
+    width: 400px;
 }
 .imagenes {
     margin-bottom: 50px;
@@ -84,6 +180,7 @@ header {
     margin-top: 50px;
 }
 .texto1 {
+    position:relative;
     font-size: 40pt;
     margin: 50px;
     margin-right: 90px;
@@ -126,10 +223,6 @@ ul {
     padding: 0;
 }
 
-.logo span {
-    color: #B70E21;
-}
-
 .contact-wrapper {
     box-shadow: 0 0 70px 0 rgba(10, 700, 255, 10);
 }
@@ -154,9 +247,11 @@ ul {
 
 .contact-form form p {
     margin: 0;
-    padding: 1em;
+    padding: .5em;
 }
-
+.texto2 {
+    font-size: 25pt;
+}
 .contact-form form .block {
     grid-column: 0 / 3;
 }
@@ -172,9 +267,12 @@ ul {
     color: #fff;
     border-bottom: 1px solid #28978E;
 }
+.contact-form form button {
+    
+}
 .boton {
     font-family: 'Readex Pro', sans-serif;
-    font-size: 40pt;
+    font-size: 20pt;
 }
 .contact-form form button {
     cursor: pointer;
