@@ -23,7 +23,52 @@ body{
     background-position: 0% 50%;
     }
 }
-
+/* prueba menu */
+.menu {
+    border-radius: 15px;
+    max-width: 400px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    background-color: #28978E;
+}
+.menu-texto{
+    text-align:inherit;
+    color: white;
+    text-decoration: none;
+    font-size: 5vw;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+}
+.menu-horizontal > li:hover {
+    border-radius: 50px;
+    background-color: rebeccapurple;
+}
+.menu-vertical {
+    position: absolute;
+    display: none;
+    left: 250px;
+    list-style: none;
+    width: 300px;
+    background-color: rgba (0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+.menu-vertical li:hover {
+    width: 500px;
+    background-color: #F00061;
+}
+.menu-vertical li a{
+    justify-content: center;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 25px 5px 15px 50px;
+}
 /* header */
 
 header {
@@ -45,6 +90,7 @@ header {
     cursor: pointer;
 }
 .catalogo {
+    text-decoration: none;
     margin: 40px;
     float: right;
     position: relative;
@@ -113,7 +159,6 @@ header {
 }
 
 /* CONTACTO */
-
 .container {
     max-width: 1170px;
     margin-left: auto;
@@ -124,10 +169,6 @@ header {
 ul {
     list-style: none;
     padding: 0;
-}
-
-.logo span {
-    color: #B70E21;
 }
 
 .contact-wrapper {
@@ -154,9 +195,11 @@ ul {
 
 .contact-form form p {
     margin: 0;
-    padding: 1em;
+    padding: .5em;
 }
-
+.texto2 {
+    font-size: 25pt;
+}
 .contact-form form .block {
     grid-column: 0 / 3;
 }
@@ -172,9 +215,12 @@ ul {
     color: #fff;
     border-bottom: 1px solid #28978E;
 }
+.contact-form form button {
+    
+}
 .boton {
     font-family: 'Readex Pro', sans-serif;
-    font-size: 40pt;
+    font-size: 20pt;
 }
 .contact-form form button {
     cursor: pointer;

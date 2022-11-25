@@ -61,148 +61,20 @@ header {
     border-radius: 30px;
 }
 
-/* carrusel */ 
-.carrousel {
-    position:relative;
-    margin-top: 450px;
-    width: 100%;
-}
-
-.conteCarrousel {
-    border-radius: 50px;
-    box-shadow: 0 0 70px 0 rgba(10, 700, 255, 10);
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}
-
-.itemCarrousel {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.itemCarrouselTarjeta {
-    width: 100%;
-    height: 100%;
-}
-
-.itemCarrouselArrows {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.itemCarrouselArrows > i:hover {
-    cursor: pointer;
-}
-
-#itemCarrousel-1 {
-    background-color: rgb(50, 100, 60);
-}
-
-#itemCarrousel-2 {
-    background-color: rgb(50, 40, 190);
-}
-
-#itemCarrousel-3 {
-    background-color: rgb(135, 10, 0);
-}
-#itemCarrousel-4 {
-    background-color: rgb(250, 200, 95);
-}
-
-.item-imagenes {
-    box-shadow: 0 0 5px 0 rgba(0, 0, 5, 10);
-    border-radius: 15px;
-    margin-left: 325px;
-    margin-bottom: 30px;
-    width: 450px;
-}
-.conteCarrouselController {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.conteCarrouselController > a {
-    margin-top: 10px;
-    text-decoration: none;
-    font-size: 2em;
-    color: grey;
-}
-.conteCarrouselController .cuervo {
-    margin-top: 22px;
-    text-decoration: none;
-    width: 1.5em;
-    color: grey;
-}
-
-.itemCarrouselArrows > a > i {
-    color: white;
-}
-/* prueba menu */
-.menu {
-    border-radius: 15px;
-    max-width: 600px;
-    height: 100px;
-    position: relative;
-    margin: auto;
-    background-color: #28978E;
-}
-.menu-texto{
-    text-align:inherit;
-    color: white;
-    text-decoration: none;
-    font-size: 5vw;
-}
-.menu-horizontal {
-    margin-top: 750px;
-    list-style: none;
-    display: flex;
-    justify-content:center;
-}
-.menu-vertical {
-    position: absolute;
-    display: none;
-    left: 50px;
-    list-style: none;
-    width: 300px;
-}
-.menu-horizontal li:hover .menu-vertical {
-    display:block;
-}
-.menu-vertical li:hover {
-    border-radius: 15px;
-    width: 500px;
-    background-color: black;
-}
-.menu-vertical li a{
-    justify-content: center;
-    display:table-cell;
-    color: white;
-    text-decoration: none;
-    padding: 15px 5px 15px 10px;
-}
+/* carrusel */
 /* imagenes */ 
 
 .izquierdos {
-    margin-top: 70px;
+    margin-top: 20px;
+    margin-right: 50px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 5, 10);
-   padding: 10px;
+   padding: 20px;
     width: 400px;
 }
 .derechos {
     box-shadow: 0 0 20px 0 rgba(0, 0, 5, 10);
-    padding: 10px;
+    margin-left: 50px;
+    padding: 20px;
     width: 400px;
 }
 .extras {
