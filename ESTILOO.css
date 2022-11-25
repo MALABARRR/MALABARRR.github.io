@@ -65,10 +65,12 @@ header {
 /* imagenes */ 
 
 .ramen {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 5, 10);
     margin-left: 2%;
     width: 600px;
 }
 .pato {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 5, 10);
     margin-right: 2%;
     width: 600px;
 }
